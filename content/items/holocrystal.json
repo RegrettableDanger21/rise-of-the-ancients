@@ -9,7 +9,7 @@
 	"research": {
 		"parent": "frozen-alloy",
 		"requirements": [
-			"frozen-alloy/10"
+			"frozen-alloy/12"
 		]
 	},
 }
