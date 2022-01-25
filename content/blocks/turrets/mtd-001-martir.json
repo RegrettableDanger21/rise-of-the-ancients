@@ -1,0 +1,36 @@
+{
+	"type": "ItemTurret",
+	"name": "MTD-001 Martir",
+	"description": "A small, defensive turret honoring those who fell during the second faction war",
+	"health": 1000,
+	"size": 1,
+	"shots": 2,
+	"itemCapacity": 200,
+	"reloadTime": 2,
+	"range": 150,
+	"recoil": 1,
+	"shootSound": "railgun",
+	"accuracy": 70,
+	"rotateSpeed": 1,
+	"targetGround": true,
+	"targetAir": false,
+	"ammoUseEfect": "shootSmall",
+	"ammoTypes":{ 
+		"copper":{
+			"type": "basicBulletType",
+			"lifetime": 37.8,
+			"speed": 5,
+			"damage": 50,
+			"collidesAir": true,
+			"collidesGround": true,
+			"collides": true,
+			"keepVelocity": true,
+		},
+	}
+	"requirements":[
+		"copper/100",
+		"lead/80"
+	],
+	"category": "turret",
+	"research": "duo",
+}

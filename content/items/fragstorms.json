@@ -1,0 +1,15 @@
+{
+	"name": "Fragstorms",
+	"description": "Endlevour Volcanic Soil Rock Fragments, the main ore of this faction and used to make other types of materials.",
+	"details": "This mineral, not finding a way to cultivate them in Serpulo or finding the same mineral, they decided to make them artificially.",
+	"cost": 3,
+	"hardness": 1,
+	"flammability": 1,
+	"color": "515151FF",
+	"research": {
+		"parent": "coal",
+		"requirements": [
+			"coal/100"
+		]
+	},
+}

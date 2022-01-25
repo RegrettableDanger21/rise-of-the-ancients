@@ -1,0 +1,14 @@
+{
+	"name": "Frozen Alloy",
+	"description": "Serves as a good armor plate and as freezing / armor-piercing ammo for some turrets.",
+	"details": "Frozen, electrical and cold alloy, made from surge alloy, and cryogenic, a variant of the surge alloy but better, main material for become liquid hydrogen.",
+	"cost": 5,
+	"hardness": 2,
+	"color": "2BB3D5FF",
+	"research": {
+		"parent": "surge-alloy",
+		"requirements": [
+			"surge-alloy/10"
+		]
+	},
+}

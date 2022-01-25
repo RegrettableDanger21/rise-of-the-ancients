@@ -1,0 +1,15 @@
+{
+	"name": "Nuclear Waste",
+	"description": "Residues of the explosive compound, still very explosive and radioactive, but useful, can be used as ammunition or as a component for more complex things.",
+	"details": "Kost developed this explosive to more efficiently produce the massive alloy.",
+	"hardness": 0.2,
+	"radioactivity": 0.2,
+	"cost": 2,
+	"color": "6E7260FF",
+	"research": {
+		"parent": "altered-matter",
+	"	requirements": [
+			"altered-matter/20"
+		]
+	},
+}

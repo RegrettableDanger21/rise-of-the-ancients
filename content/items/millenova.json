@@ -1,0 +1,15 @@
+{
+	"name": "Millenova",
+	"description": "This material resists high temperatures and is very resistant, they are used for the current AstraSpectrum turrets.",
+	"details": "Material found in, mainly, planets in danger of Supernova, millions of light years away, that is why it is called Millenova, when they reach Serpulo they should find a way to do it, so now they do it from Onix Petrolitra, Titanium and Celesteel.",
+	"cost": 5,
+	"color": "00BEBEFF",
+	"charge": 0.1,
+	"research": {
+		"parent": "onix-petrolitra",
+		"requirements": [
+			"onix-petrolitra/20"
+			"celesteel/30"
+		]
+	},
+}

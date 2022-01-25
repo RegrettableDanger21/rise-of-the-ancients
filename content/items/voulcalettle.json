@@ -1,0 +1,15 @@
+{
+	"name": "Voulcalettle",
+	"description": "Used as incendiary ammunition in some turrets, highly flammable.",
+	"details": "Hot and volcanic parts of Endlevour, now only synthesized from magmarock rubbles and fragstorms.",
+	"cost": 4,
+	"hardness": 2,
+	"flammability": 1,
+	"color": "202020FF",
+	"research": {
+		"parent": "magmarock-rubble",
+		"requirements": [
+			"magmarock-rubble/80"
+		]
+	},
+}

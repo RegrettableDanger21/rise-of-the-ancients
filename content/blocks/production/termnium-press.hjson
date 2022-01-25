@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Termnium Press",
+	"description": ".",
+	"details": ".",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 100,
+	"itemCapacity": 30,
+	"craftEffect": "blastsmoke",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				"pyro-alloy/5",
+				"cryo-alloy/7"
+			],
+		},
+	},
+	"outputItem": "termnium/2",
+	"requirements": [
+		"copper/1",
+		"lead/2",
+		//Código incompleto por el momento, falta pulir.
+	],
+	"category": "crafting",
+	"research": "matter-alterator-separator",
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Magmarock Rubble",
+	"description": "Any turret made with this material, could boost the bullets that were incendiary.",
+	"details": "With a powerful drill they made magma floors, magmarock debris, charred pieces of the ground set on fire by lava, this was unique to Endlevour, so they decided to make one with what they had in Serpulo.",
+	"cost": 1,
+	"hardness": 1,
+	"flammability": 0.3
+	"color": "3c3838FF",
+	"research": {
+		"parent": "fragstorms",
+		"requirements": [
+			"fragstorms/20"
+		]
+	},
+}

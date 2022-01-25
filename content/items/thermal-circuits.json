@@ -1,0 +1,15 @@
+{
+	"name": "Thermal circuits",
+	"description": "A superconductor made of thermnium and silicon.",
+	"details": "The Best Conductor,impulsed by ancient tecnology.",
+	"cost": 21,
+	"hardness": 5,
+	"charge": 10,
+	"color": "A8A500",
+	"research": {
+		"parent": "Termnium",
+		"requirements": [
+			"silicon/275"
+		]
+	},
+}

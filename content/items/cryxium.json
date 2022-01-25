@@ -1,0 +1,14 @@
+{
+	"name": "Cryxium",
+	"description": "This material is the main one to create all kinds of synthetic material from Coldleds.",
+	"details": "native mineral of the cold areas Endlevour, the mineral could not adapt to the cold areas of Serpulo because these areas were not frozen enough, so they decided to do it synthetically, and decided to put the water and titanium at low temperatures and pressures, creating so this material.",
+	"cost": 3,
+	"hardness": 2,
+	"color": "67C8E0FF",
+	"research": {
+		"parent": "titanium",
+		"requirements": [
+			"titanium/20"
+		]
+	},
+}

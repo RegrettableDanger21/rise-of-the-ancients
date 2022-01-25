@@ -1,0 +1,16 @@
+{
+	"name": "Regnium Rubble",
+	"description": "Regnium Rubble, made from regnium and alpha regnium, powerful ammunition in turrets of the corrupted faction.",
+	"details": "The Regnium Rubble when divided, gets double its strength depending on how many parts it was divided into, but greatly decreasing its infection speed.",
+	"cost": 2.5,
+	"hardness": 2,
+	"radioactivity": 0.1,
+	"color": "7D3C3CFF",
+	"research": {
+		"parent": "regnium-alpha",
+		"requirements": [
+			"regnium/20",
+			"regnium-alpha/15"
+		]
+	},
+}

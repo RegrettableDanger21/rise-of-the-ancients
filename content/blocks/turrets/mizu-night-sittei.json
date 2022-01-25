@@ -1,0 +1,60 @@
+{
+	"type": "ItemTurret",
+	"name": "Mizu Night Sittei",
+	"description": ".",
+	"health": 2500,
+	"size": 3,
+	"shots": 5,
+	"burstSpacing": 5,
+	"ammoUseEffect": "casing2",
+	"ammoEjectBack": 3,
+	"alternate": false,
+	"itemCapacity": 100,
+	"reloadTime": 58,
+	"range": 125,
+	"recoilAmount": 1,
+	"shootSound" : "Mizu-night",
+	"rotateSpeed": 5,
+	"targetGround": true,
+	"targetAir": false,
+	"hasPower": true,
+	"ammoTypes": {
+		"lead": {
+			"type": "BasicBulletType",
+			"lifetime": 31.5,
+			"knockback": 0.3,
+			"speed": 3.5,
+			"damage": 50,
+			"frontColor": "5400FFFF",
+			"backColor": "7531FFFF",
+			"shootEffect": {
+				"type": "ParticleEffect"
+				"particles": 25,
+				"length": 30,
+				"lifetime": 18,
+				"interp": "circleOut",
+				"sizeInterp": "pow5Out",
+				"cone": 3,
+				"colorFrom": "5400FFFF",
+				"colorTo": "7531FFFF",
+				"sizeFrom": 4.0,
+				"sizeTo": 0,
+			},
+			"ammoMultiplier": 5,
+			"homingRange": 20,
+			"homingPower": 15,
+			"explodeRange" : 20,
+			"splashDamage": 25
+			"splashDamageRadius":50
+			"collidesAir": false, 
+			"collidesGround": true,
+			"collides": true, 
+			"keepVelocity": true,
+		}
+	},
+	"requirements": [
+		"titanium/50",
+	],
+	"category": "turret",
+	"research": "salvo"
+}

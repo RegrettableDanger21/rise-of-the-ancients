@@ -1,0 +1,18 @@
+{
+	"name": "nuclear explosive",
+	"description": "Made by Kost Corp, it is a compound modified with nuclear waste, it is excellent as ammunition but polluting by the radiation..",
+	"details": "This explosive was made in order to break the most solid armor.",
+	"cost": 4,
+	"hardness": 3,
+	"radioactivity": 0.9,
+	"explosiveness": 0.15,
+	"flammability": 4,
+	"color": "7A7F64FF",
+	"research": {
+		"parent": "thorium",
+		"requirements": [
+			"blast-compound/10",
+			"thorium/15"
+		]
+	},
+}

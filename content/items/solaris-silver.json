@@ -1,0 +1,13 @@
+{
+	"name": "Solaris Silver",
+	"description": "Used for different materials as well as constructions that require to contain a lot of heat.",
+	"details": "Found in a solar system with a Red Giant, hence the name Solaris Silver, it is still preserved within AstraSpectrum's main ship and was created more by an artificial process.",
+	"cost": 6
+	"color": "632327FF",
+	"research": {
+		"parent": "silvester"
+		"requeriments": [
+			"silvester/20"
+		],
+	},
+}

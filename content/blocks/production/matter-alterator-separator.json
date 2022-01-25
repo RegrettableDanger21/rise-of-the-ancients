@@ -1,0 +1,32 @@
+{
+	"type": "separator",
+	"name": "Matter Alterator",
+	"description": "",
+	"details": "",
+	"size": 3,
+	"liquidCapacity": 100,
+	"craftTime": 120,
+	"craftEffect": "pickup",
+	"consumes": {
+		"power": 2,
+		"liquid": {
+			"liquid": "fusion-fluid-liquid"
+			"amount": 0.02,
+		},
+	},
+	"results": [
+		"nuclear-waste/9"
+		"altered-matter/5"
+]
+	"requirements": [
+		"copper/100",
+		"lead/225",
+		"plastanium/200",
+		"metaglass/200",
+		"thorium/200",
+		"graphite/300",
+		"titanium/150",
+ ]
+	"category": "crafting",
+	"research": "alloy-smelter",
+}

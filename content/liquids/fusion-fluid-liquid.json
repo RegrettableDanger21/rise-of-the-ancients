@@ -1,0 +1,14 @@
+{
+	"name": "Fusion Fluid",
+	"description": "A fluid made of multiple materials, it serves to make materials and is an efficient cooler.",
+	"details": "This liquid was made by Kost Corp as a powerful fuel and cooler, also for materials.",
+	"temperature": -4,
+	"flammability": 0.1,
+	"viscosity": 0.2,
+	"lightColor": "0f705dFF",
+	"heatCapacity": 1,
+	"explosiveness": 2.0,
+	"effect": "corroded",
+	"color": "0f705dFF",
+	"research": "cryofluid"
+}

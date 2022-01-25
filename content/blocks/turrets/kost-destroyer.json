@@ -1,0 +1,53 @@
+{
+	"type": "ItemTurret",
+	"name": "Kost Destroyer",
+	"description": "",
+	"health": 4500,
+	"size": 6,
+	"shots": 2,
+	"shootdelay": 3,
+	"itemCapacity": 650,
+	"reloadTime": 100,
+	"range": 500,
+	"recoil": 2,
+	"shootSound": "railgun",
+	"accuracy": 90,
+	"rotateSpeed": 0.5,
+	"targetGround": true,
+	"targetAir": true,
+	"ammoUseEfect": "none",
+	"ammoTypes":{ 
+		"massive-alloy":{
+		"type": "railBulletType",
+		"lifetime": 138.6,
+		"damage": 2750,
+		"shooteffect": "lancercharge",
+		"collidesAir": true,
+		"collidesGround": true,
+		"collides": true,
+		"keepVelocity": true,
+		"effect": "blasted"
+		"duration": 500 
+},
+		"surge-alloy":{
+		"type": "railBulletType",
+		"lifetime": 120,
+		"damage": 1875,
+		"shooteffect":"lancercharge",
+		"collidesAir": true,
+		"collidesGround": true,
+		"collides": true,
+		"keepVelocity": true,
+		"effect": "shocked",
+		"duration": 450 },
+}
+	"requirements":[
+		"copper/1250",
+		"lead/1000",
+		"massive-alloy/2500",
+		"surge-alloy/750",
+		"phase-fabric/300"
+],
+	"category": "turret",
+	"research": "kost-railgun",
+}

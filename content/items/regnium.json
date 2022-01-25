@@ -1,0 +1,15 @@
+{
+	"name": "Regnium",
+	"description": "Infected ore, occupied by the corrupteds ones for different construction and turrets.",
+	"details": "Mineral that started the infection on the planet Endlevour, coming from meteor with 75% titanium and 25% infection.",
+	"cost": 3,
+	"hardness": 3,
+	"radioactivity": 1,
+	"color": "d31c01FF",
+	"research": {
+		"parent": "titanium",
+		"requirements": [
+			"titanium/75"
+		]
+	},
+}

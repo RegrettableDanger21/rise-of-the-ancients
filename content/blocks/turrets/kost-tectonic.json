@@ -1,0 +1,43 @@
+{
+	"type": "ItemTurret",
+	"name": "Tectonic",
+	"description": "A Kost Destroyer Modified",
+	"health": 9500,
+	"size": 7,
+	"shots": 6,
+	"itemCapacity": 5000,
+	"reloadTime": 180,
+	"range": 400,
+	"recoil": 5,
+	"shootSound": "laser",
+	"accuracy": 95,
+	"rotateSpeed": 3,
+	"targetAir": true,
+	"targetGround": true,
+	"ammoUseEfect": "kineticshoot",
+	"ammoTypes":{ 
+		"surge-alloy":{
+			"type": "shrapnelBulletType",
+			"lifetime": 110.3,
+			"speed": 4,
+			"damage": 1750,
+			"serrations": 3,
+			"fromColor": "FFFFFFFF",
+			"toColor": "A2140DFF",
+			"collidesAir": true,
+			"collidesGround": true,
+			"collides": true,
+			"keepVelocity": false,
+			"shootEffect": "lancerLaserShoot",
+			"length": 250,
+			"width": 20,
+	},
+}
+	"requirements":[
+		"graphite/2000",
+		"titanium/1500",
+		"thorium/500"
+],
+	"category": "turret",
+	"research": "foreshadow",
+}

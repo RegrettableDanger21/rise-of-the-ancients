@@ -1,0 +1,15 @@
+{
+	"name": "Regnium Alpha",
+	"description": "A vairant of Regnium, more radioactive, more lethal, and more resistant.",
+	"details": "Occupied for the majority of turrets and buildings of the corerupted faction, being a strong variant, it corrupts the units it thouches and reddering them useless. this variant has evolved into Serpulo this variant affects the planetary surface of the Endlevour to a greater extend.",
+	"cost": 5,
+	"hardness": 3,
+	"radioactivity": 10,
+	"color": "790303FF",
+	"research": {
+		"parent": "regnium",
+		"requirements": [
+			"regnium/20"
+		]
+	},
+}
