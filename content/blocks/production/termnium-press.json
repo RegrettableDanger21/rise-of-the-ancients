@@ -23,7 +23,6 @@
 	"requirements": [
 		"copper/1",
 		"lead/2",
-		//Código incompleto por el momento, falta pulir.
 	],
 	"category": "crafting",
 	"research": "matter-alterator-separator",
