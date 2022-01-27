@@ -1,0 +1,42 @@
+{
+	"name": "Silvester Smelter",
+	"description": "",
+	"details": "",
+	"type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "235E9EFF"
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 80,
+	"craftTime": 150,
+	"craftEffect": {
+	"type": "WaveEffect",
+	"lifetime": 25,
+	"sizeFrom": 0,
+	"sizeTo": 40,
+	"strokeFrom": 8,
+	"strokeTo": 0,
+	"colorFrom": "FFFFFFFF",
+	"colorTo": "ADABA9FF"
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				"surge-alloy/10",
+				"titanium/10"
+			]
+		}
+	},
+	"requirements": [
+		"copper/5"
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"outputItem": "silvester/3"
+}
