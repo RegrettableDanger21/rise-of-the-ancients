@@ -21,8 +21,10 @@
 	},
 	"outputItem": "termnium/2",
 	"requirements": [
-		"copper/1",
-		"lead/2",
+		"copper/30",
+		"lead/20",
+		"altered-matter/25",
+		"metaglass/45"
 	],
 	"category": "crafting",
 	"research": "matter-alterator-separator",

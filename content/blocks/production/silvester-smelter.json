@@ -34,7 +34,11 @@
 		}
 	},
 	"requirements": [
-		"copper/5"
+		"surge-alloy/30",
+		"titanium/30",
+		"lead/60",
+		"copper/50",
+		"metaglass/45"
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",

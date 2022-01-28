@@ -37,6 +37,8 @@
 		"graphite/2000",
 		"titanium/1500",
 		"thorium/500"
+		"massive-alloy/50",
+		"adaptative-alloy/200"
 ],
 	"category": "turret",
 	"research": "foreshadow",

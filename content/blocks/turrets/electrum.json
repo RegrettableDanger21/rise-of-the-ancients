@@ -28,7 +28,8 @@
 },
 	"requirements":[
 		"lead/200",
-		"silicon/130"
+		"silicon/130",
+		"copper/50"
 ],
 	"category": "turret",
 	"research": "lancer",

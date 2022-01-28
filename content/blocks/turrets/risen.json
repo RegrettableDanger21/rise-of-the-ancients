@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"name": "Risen",
 	"description": "A turret of decent cadence, adaptable to all types of bullets",
-	"details": "The Thresher Faction´s First Turret, updating by kostcorp for new parts of the turret",
+	"details": "The Thresher Faction´s First Turret, updating by Spectrum for new parts of the turret",
 	"health": 1800,
 	"size": 4,
 	"shots": 1,
@@ -47,7 +47,13 @@
 		},
 	},
 	"requirements": [
-		"copper/50"
+		"copper/125",
+		"cryxium/75",
+		"neo-corrupt/25",
+		"lead/40",
+		"titanium/50",
+		"electrographit/15"
+		
 	],
 	"category": "turret",
 	"research": "lighthawk"

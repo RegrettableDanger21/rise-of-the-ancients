@@ -30,7 +30,7 @@
 			"lifetime": 63,
 			"knockback": 0.3,
 			"speed": 3.5,
-			"damage": 15,
+			"damage": 20,
 			"shootEffect": "shootBig",
 			"frontColor": "52626EFF",
 			"backColor": "52626e",
@@ -48,10 +48,10 @@
 	}
 	"requirements": [
 		"electrographit/50",
-		"cryxium/100",
-		"copper/200",
-		"lead/150",
-		"titanium/300"
+		"cryxium/80",
+		"copper/100",
+		"lead/90",
+		"titanium/150"
 	],
 	"category": "turret",
 	"research": "risen"
