@@ -33,6 +33,7 @@
 			]
 		}
 	},
+	"outputItem": "silvester/3"
 	"requirements": [
 		"surge-alloy/30",
 		"titanium/30",
@@ -42,5 +43,4 @@
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"outputItem": "silvester/3"
 }

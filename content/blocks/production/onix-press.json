@@ -1,0 +1,41 @@
+{
+	"type": "GenericCrafter",
+	"drawer": "drawGlow",
+	"name": "Onix Press",
+	"description": ".",
+	"details": "",
+	"size": 4,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquid": true,
+	"liquidCapacity": 80,
+	"itemCapacity": 20,
+	"craftTime": 40,
+	"craftEffect": "formsmoke",
+	"updateEffect": "plasticburn",
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				"silvester/5",
+				"coal/3"
+			]
+	},
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.5
+		}
+	},
+	"outputItem": "onix-petrolitra/3"
+	"requirements": [
+		"graphite/200",
+		"plastanium/130",
+		"titanium/120",
+		"silicon/230",
+		"lead/330",
+		"silvester/120",
+		"hipernova/40"
+	],
+	"category": "crafting",
+	"research": "hipernova-furnance",
+}

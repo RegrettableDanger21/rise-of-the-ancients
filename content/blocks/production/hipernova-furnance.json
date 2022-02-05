@@ -1,0 +1,43 @@
+{
+	"type": "GenericCrafter",
+	"drawer":{
+		"type": "DrawSmelter",
+		"flameColor": "E3395A",
+	},
+	"name": "Hipernova Furnance",
+	"description": ".",
+	"details": "",
+	"health": 70,
+	"liquidCapacity": 60,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 60,
+	"craftTime": 100,
+	"craftEffect": "hitMeltdown",
+	"updateEffect": "hitMeltdown",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+				"coal/10",
+				"silvester/8"
+			]
+	},
+		"liquid": {
+			"liquid": "slag",
+			"amount": 0.2
+		}
+	},
+	"outputItem": "hipernova/6"
+	"requirements": [
+		"silicon/160",
+		"titanium/160",
+		"thorium/140",
+		"silvester/160",
+		"surge-alloy/140"
+	],
+	"category": "crafting",
+	"research": "silvester-smelter"
+}
