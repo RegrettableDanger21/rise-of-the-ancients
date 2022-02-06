@@ -7,9 +7,9 @@
 	"charge": 10,
 	"color": "A8A500",
 	"research": {
-		"parent": "Termnium",
+		"parent": "termnium",
 		"requirements": [
-			"silicon/275"
+			"termnium/75"
 		]
 	},
 }
