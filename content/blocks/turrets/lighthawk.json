@@ -38,12 +38,7 @@
 			"pierceCap": 5,
 			"ammoMultiplier": 5,
 			"status": "unmoving",
-			"status": "electrified",
 			"status": "slow",
-			"collidesAir": false, 
-			"collidesGround": true,
-			"collides": true, 
-			"keepVelocity": true,
 		},
 	}
 	"requirements": [

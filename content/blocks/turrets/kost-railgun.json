@@ -13,17 +13,17 @@
 	"accuracy": 80,
 	"rotateSpeed": 1,
 	"targetGround": true,
-	"targetAir": true,
+	"targetAir": false,
 	"ammoUseEfect": "none",
 	"ammoTypes":{ 
 		"massive-alloy":{
-		"type": "railBulletType",
+		"type": "BasicBulletType",
 		"shooteffect": "lancercharge",
 		"lifetime": 88.2,
 		"damage": 300,
-		"collidesAir": true,
-		"collidesGround": true,
-		"collides": true,
+		"height": 15,
+		"width": 10,
+		"speed": 85,
 		"keepVelocity": true,
 	},
 }

@@ -1,45 +1,78 @@
 {
 	"type": "ItemTurret",
 	"name": "Tectonic",
-	"description": "A Kost Destroyer Modified",
+	"description": "",
+	"details": "",
 	"health": 9500,
 	"size": 7,
-	"shots": 6,
-	"itemCapacity": 5000,
-	"reloadTime": 180,
-	"range": 400,
+	"shots": 1,
+	"itemCapacity": 300,
+	"reloadTime": 300,
+	"range": 410,
 	"recoil": 5,
 	"shootSound": "laser",
 	"accuracy": 95,
 	"rotateSpeed": 3,
 	"targetAir": true,
 	"targetGround": true,
-	"ammoUseEfect": "kineticshoot",
-	"ammoTypes":{ 
-		"surge-alloy":{
-			"type": "shrapnelBulletType",
-			"lifetime": 110.3,
-			"speed": 4,
-			"damage": 1750,
-			"serrations": 3,
-			"fromColor": "FFFFFFFF",
-			"toColor": "A2140DFF",
-			"collidesAir": true,
-			"collidesGround": true,
-			"collides": true,
-			"keepVelocity": false,
-			"shootEffect": "lancerLaserShoot",
-			"length": 250,
-			"width": 20,
-	},
-}
+	"ammoUseEffect": "none",
+	"chargeTime": 20,
+	"chargeBeginEffect": {
+		"type": "multiEffect",
+		"lifetime": 20,
+		"effects": [
+			{
+				"type": "explosionEffect",
+				"sparks": 15,
+				"smokes": 10,
+				"smokeSize": 20,
+				"sparkRad": 30,
+				"lifetime": 20,
+				"sparkColor": "E92525FF"
+			},
+			{
+				"type": "WaveEffect",
+				"lifetime": 30,
+				"sizeFrom": 0,
+				"sizeTo": 150,
+				"strokeFrom": 5,
+				"strokeTo": 0,
+				"colorFrom": "ED5252FF",
+				"colorTo": "E92525FF"
+			},
+		],
+	}
+	"ammoTypes": {
+		"surge-alloy": {
+			"type": "LaserBulletType",
+			"colors": ["BB1E1EFF", "DD2B2BFF", "FFFFFF"],
+			"length": 410,
+			"width": 30,
+			"damage": 3500,
+			"collidesTiles": true,
+			"lightColor": "DD2B2BFF",
+			"lightRadius": 10,
+			"shootEffect": "sapExplosion",
+			"smokeEffect": "smokeCloud",
+			"sideAngle": 25,
+			"sideWidth": 0,
+			"sideLength": 0,
+			"lightning": 3,
+			"lightningColor": "E03F3FFF",
+			"lightningDamage": 500,
+			"lightningLength": 29,
+			"lightningCone": 20,
+			"lightningLengthRand": 13,
+		},
+	}
 	"requirements":[
-		"graphite/2000",
-		"titanium/1500",
-		"thorium/500"
-		"massive-alloy/50",
-		"adaptative-alloy/200"
-],
+		"graphite/3000",
+		"titanium/2500",
+		"thorium/1000"
+		"massive-alloy/300",
+		"adaptative-alloy/500",
+		"silicon/2200"
+	],
 	"category": "turret",
 	"research": "foreshadow",
 }

@@ -6,14 +6,14 @@
 	"size": 1,
 	"shots": 2,
 	"itemCapacity": 200,
-	"reloadTime": 2,
+	"reloadTime": 5,
 	"range": 150,
 	"recoil": 1,
 	"shootSound": "railgun",
 	"accuracy": 70,
 	"rotateSpeed": 1,
-	"targetGround": true,
-	"targetAir": false,
+	"targetGround": false,
+	"targetAir": true,
 	"ammoUseEfect": "shootSmall",
 	"ammoTypes":{ 
 		"copper":{
@@ -21,10 +21,6 @@
 			"lifetime": 37.8,
 			"speed": 5,
 			"damage": 50,
-			"collidesAir": true,
-			"collidesGround": true,
-			"collides": true,
-			"keepVelocity": true,
 		},
 	}
 	"requirements":[

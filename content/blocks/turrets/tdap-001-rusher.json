@@ -5,31 +5,29 @@
 	"health": 5000,
 	"size": 3,
 	"shots": 1,
-	"itemCapacity": 400,
+	"itemCapacity": 100,
 	"reloadTime": 6,
 	"range": 300,
 	"recoil": 2,
 	"shootSound": "bigShoot",
 	"accuracy": 90,
 	"rotateSpeed": 3,
-	"targetGround": "true",
-	"targetAir": "false",
+	"targetGround": true,
+	"targetAir": false,
 	"ammoUseEfect": "lancerLaserCharge",
 	"ammoTypes":{ 
 		"titanium":{
 			"type": "artilleryBulletType",
 			"lifetime": 3000,
 			"speed": 4,
-			"damage": 500,
-			"collidesAir": true,
-			"collidesGround": true,
-			"collides": true,
-			"keepVelocity": true,
+			"damage": 120,
 		},
 	}
 	"requirements":[
 		"lead/70",
-		"graphite/120"
+		"graphite/120",
+		"silicon/75",
+		"titanium/50"
 	]
 	"category": "turret",
 	"research": "scatter",

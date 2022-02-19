@@ -7,6 +7,7 @@
 	"shots": 5,
 	"burstSpacing": 5,
 	"ammoUseEffect": "casing2",
+	"spread": 0,
 	"ammoEjectBack": 3,
 	"alternate": false,
 	"itemCapacity": 100,

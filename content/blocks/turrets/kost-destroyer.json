@@ -4,7 +4,7 @@
 	"description": "",
 	"health": 4500,
 	"size": 6,
-	"shots": 2,
+	"shots": 1,
 	"shootdelay": 3,
 	"itemCapacity": 650,
 	"reloadTime": 100,
@@ -18,35 +18,38 @@
 	"ammoUseEfect": "none",
 	"ammoTypes":{ 
 		"massive-alloy":{
-		"type": "railBulletType",
+		"type": "BasicBulletType",
 		"lifetime": 138.6,
 		"damage": 2750,
 		"shooteffect": "lancercharge",
-		"collidesAir": true,
-		"collidesGround": true,
-		"collides": true,
-		"keepVelocity": true,
+		"height": 15,
+		"width": 10,
+		"speed": 10,
 		"effect": "blasted"
-		"duration": 500 
+		"duration": 500,
+		"piercing": true,
+		"piercingCap": 10,
 },
 		"surge-alloy":{
-		"type": "railBulletType",
+		"type": "BasicBulletType",
 		"lifetime": 120,
 		"damage": 1875,
 		"shooteffect":"lancercharge",
-		"collidesAir": true,
-		"collidesGround": true,
-		"collides": true,
-		"keepVelocity": true,
+		"height": 15,
+		"width": 10,
+		"speed": 10,
 		"effect": "shocked",
-		"duration": 450 },
+		"duration": 450
+		"piercing": true,
+		"piercingCap": 10,
+	},
 }
 	"requirements":[
 		"copper/1250",
-		"lead/1000",
+		"silicon/1250",
 		"massive-alloy/2500",
 		"surge-alloy/750",
-		"phase-fabric/300"
+		"phase-fabric/400"
 ],
 	"category": "turret",
 	"research": "kost-railgun",
