@@ -1,5 +1,5 @@
 {
-	"type": "ItemTurret",
+	"type": "itemTurret",
 	"name": "Mammoth",
 	"description": "A gigantic defensive turret useful to withstand any wave",
 	"details": "",
@@ -15,10 +15,10 @@
 	"rotateSpeed": 2,
 	"targetAir": true,
 	"targetGround": true,
-	"ammoUseEfect": "none",
+	"ammoUseEffect": "none",
 	"ammoTypes":{ 
 	"surge-alloy":{
-		"type": "ArtilleryBulletType",
+		"type": "artilleryBulletType",
 		"lifetime": 60,
 		"speed": 4,
 		"damage": 100,
@@ -35,7 +35,7 @@
 		"hitSize": 8
 		"fragBullets":10,
 		"fragBullet": {
-			"type": "BasicBulletType",
+			"type": "basicBulletType",
 			"lifetime": 20,
 			"damage": 10,
 			"pierce": true,
@@ -43,9 +43,10 @@
 		},
 	}
 	"requirements":[
-		"titanium/200",
-		"lead/190"
-		"copper/200"
+		"titanium/230",
+		"lead/270",
+		"copper/300",
+		"silicon/150",
 	],
 	"category": "turret",
 	"research": "lancer",

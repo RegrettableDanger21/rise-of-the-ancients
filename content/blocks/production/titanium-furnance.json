@@ -4,7 +4,7 @@
 		"type": "DrawSmelter",
 		"flameColor": "E3395A",
 	},
-	"name": "Hipernova Furnance",
+	"name": "Titanium Furnance",
 	"description": ".",
 	"details": "",
 	"health": 70,
@@ -21,23 +21,21 @@
 		"power": 2,
 		"items": {
 			"items": [
-				"coal/10",
-				"silvester/8"
+				"scrap/8"
 			]
-	},
+ },
 		"liquid": {
 			"liquid": "slag",
 			"amount": 0.2
 		}
 	},
-	"outputItem": "hipernova/6"
+	"outputItem": "titanium/4"
 	"requirements": [
 		"silicon/160",
 		"titanium/160",
 		"thorium/140",
-		"silvester/160",
 		"surge-alloy/140"
 	],
 	"category": "crafting",
-	"research": "silvester-smelter"
+	"research": "metaglass-smelter"
 }

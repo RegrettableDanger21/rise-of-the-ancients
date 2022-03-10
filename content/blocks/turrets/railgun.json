@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
-	"name": "Kost Railgun",
-	"description": "The Most Produced and cheap turret by kost corp,a first line of defense",
+	"name": "Railgun",
+	"description": "",
 	"health": 600,
 	"size": 3,
 	"shots": 1,
@@ -16,7 +16,7 @@
 	"targetAir": false,
 	"ammoUseEfect": "none",
 	"ammoTypes":{ 
-		"massive-alloy":{
+		"thorium":{
 		"type": "BasicBulletType",
 		"shooteffect": "lancercharge",
 		"lifetime": 88.2,
@@ -29,9 +29,10 @@
 }
 	"requirements":[
 		"copper/300",
-		"massive-alloy/500",
-		"plastanium/200"
+		"titanium/500",
+		"plastanium/200",
+		"lead/400",
 ],
 	"category": "turret",
-	"research": "kost-destroyer",
+	"research": "destroyer",
 }

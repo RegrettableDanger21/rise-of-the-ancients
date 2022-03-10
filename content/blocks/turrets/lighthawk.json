@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"name": "Lighthawk",
 	"description": "A double-barreled anti-ground unit turret",
-	"details": "crafting during the war between the threshers and the units corrupted",
+	"details": "",
 	"health": 1500,
 	"size": 2,
 	"shots": 2,
@@ -42,12 +42,11 @@
 		},
 	}
 	"requirements": [
-		"electrographit/50",
-		"cryxium/80",
-		"copper/100",
-		"lead/90",
+		"graphite/200",
+		"copper/140",
+		"lead/200",
 		"titanium/150"
 	],
 	"category": "turret",
-	"research": "risen"
+	"research": "scatter"
 }

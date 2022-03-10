@@ -1,6 +1,6 @@
 {
 	"type": "separator",
-	"name": "Matter Alterator",
+	"name": "Advanced Separator",
 	"description": "",
 	"details": "",
 	"size": 3,
@@ -10,13 +10,15 @@
 	"consumes": {
 		"power": 2,
 		"liquid": {
-			"liquid": "fusion-fluid-liquid"
+			"liquid": "slag"
 			"amount": 0.02,
 		},
 	},
 	"results": [
-		"nuclear-waste/9"
-		"altered-matter/5"
+		"copper/9",
+		"lead/5",
+       "titanium/4",
+       "plastanium/2"
 ]
 	"requirements": [
 		"copper/100",
@@ -28,5 +30,5 @@
 		"titanium/150",
  ]
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "separator",
 }

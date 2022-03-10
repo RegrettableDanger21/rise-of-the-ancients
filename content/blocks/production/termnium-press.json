@@ -14,18 +14,16 @@
 		"power": 5,
 		"items": {
 			"items": [
-				"pyro-alloy/5",
-				"cryo-alloy/7"
+				"coal/1"
 			],
 		},
 	},
-	"outputItem": "termnium/2",
+	"outputItem": "graphite/2",
 	"requirements": [
 		"copper/30",
 		"lead/20",
-		"altered-matter/25",
 		"metaglass/45"
 	],
 	"category": "crafting",
-	"research": "matter-alterator-separator",
+	"research": "multi-press",
 }

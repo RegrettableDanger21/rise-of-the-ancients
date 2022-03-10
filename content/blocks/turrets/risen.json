@@ -1,8 +1,8 @@
 {
 	"type": "ItemTurret",
 	"name": "Risen",
-	"description": "A turret of decent cadence, adaptable to all types of bullets",
-	"details": "The Thresher Faction´s First Turret, updating by Spectrum for new parts of the turret",
+	"description": "",
+	"details": "",
 	"health": 1800,
 	"size": 4,
 	"shots": 1,
@@ -44,12 +44,10 @@
 		},
 	},
 	"requirements": [
-		"copper/125",
-		"cryxium/75",
-		"neo-corrupt/25",
-		"lead/40",
-		"titanium/50",
-		"electrographit/15"
+		"copper/200",
+		"lead/150",
+		"titanium/60",
+		"plastanium/25"
 		
 	],
 	"category": "turret",

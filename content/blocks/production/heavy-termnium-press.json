@@ -14,16 +14,14 @@
 		"power": 7,
 		"items": {
 			"items": [
-				"pyro-alloy/8",
-				"cryo-alloy/10"
+				"coal/3"
 			],
 		},
 	},
-	"outputItem": "termnium/5",
+	"outputItem": "graphite/5",
 	"requirements": [
 		"copper/50",
 		"lead/30",
-		"altered-matter/35",
 		"metaglass/65"
 	],
 	"category": "crafting",

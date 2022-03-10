@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "TdAP-001 Rusher",
-	"description": "An artillery that served during the war for the sovereignty of the great valley, is named after the commander in charge",
+	"description": "",
 	"health": 5000,
 	"size": 3,
 	"shots": 1,
@@ -24,10 +24,10 @@
 		},
 	}
 	"requirements":[
-		"lead/70",
+		"lead/150",
 		"graphite/120",
-		"silicon/75",
-		"titanium/50"
+		"silicon/100",
+		"titanium/75"
 	]
 	"category": "turret",
 	"research": "scatter",

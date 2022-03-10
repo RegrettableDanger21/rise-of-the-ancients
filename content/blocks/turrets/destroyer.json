@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-	"name": "Kost Destroyer",
+	"name": "Destroyer",
 	"description": "",
 	"health": 4500,
 	"size": 6,
@@ -17,7 +17,7 @@
 	"targetAir": true,
 	"ammoUseEfect": "none",
 	"ammoTypes":{ 
-		"massive-alloy":{
+		"thorium":{
 		"type": "BasicBulletType",
 		"lifetime": 138.6,
 		"damage": 2750,
@@ -34,7 +34,7 @@
 		"type": "BasicBulletType",
 		"lifetime": 120,
 		"damage": 1875,
-		"shooteffect":"lancercharge",
+		"shooteffect": "lancercharge",
 		"height": 15,
 		"width": 10,
 		"speed": 10,
@@ -47,10 +47,9 @@
 	"requirements":[
 		"copper/1250",
 		"silicon/1250",
-		"massive-alloy/2500",
 		"surge-alloy/750",
 		"phase-fabric/400"
 ],
 	"category": "turret",
-	"research": "kost-railgun",
+	"research": "railgun",
 }

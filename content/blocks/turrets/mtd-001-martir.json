@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "MTD-001 Martir",
-	"description": "A small, defensive turret honoring those who fell during the second faction war",
+	"description": "",
 	"health": 1000,
 	"size": 1,
 	"shots": 2,
@@ -20,7 +20,7 @@
 			"type": "basicBulletType",
 			"lifetime": 37.8,
 			"speed": 5,
-			"damage": 50,
+			"damage": 40,
 		},
 	}
 	"requirements":[

@@ -1,5 +1,5 @@
 {
-	"name": "Silvester Smelter",
+	"name": "Metaglass Smelter",
 	"description": "",
 	"details": "",
 	"type": "GenericCrafter",
@@ -28,12 +28,12 @@
 		"power": 6,
 		"items": {
 			"items": [
-				"surge-alloy/10",
-				"titanium/10"
+				"lead/10",
+				"copper/15"
 			]
 		}
 	},
-	"outputItem": "silvester/3"
+	"outputItem": "metaglass/7"
 	"requirements": [
 		"surge-alloy/30",
 		"titanium/30",
@@ -42,5 +42,5 @@
 		"metaglass/45"
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "kiln",
 }
